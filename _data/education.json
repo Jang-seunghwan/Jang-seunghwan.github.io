@@ -1,27 +1,20 @@
 {
 	"education": [{
-            "institution": "Potato 1",
-            "institution-website": "http://google.com",
-            "degree": "BSc in Potato",
-            "specialization": "Cats",
-            "awards": "",
-            "years": "2010 - 2015"
+            "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+            "institution-website": "https://www.kaist.ac.kr/en/",
+            "degree": "M.S. Student, Department of Electrical & Electronic Engineering",
+            "specialization": "Autonomous Control for Stochastic Systems Lab (Daejeon, Korea)",
+            "awards": "Advisor: Prof. SooJean Han",
+            "years": "Sep 2024 – Present"
 		},
 
 		{
-            "institution": "Potato 2",
-            "institution-website": "http://google.com",
-            "degree": "MSc in Potato",
-            "awards": "Cum Laude",
-            "years": "2015 - 2017"
-		},
-
-		{
-            "institution": "Potato 3",
-            "institution-website": "http://google.com",
-            "degree": "PhD in Potato",
-            "awards": "",
-            "years": "2017 - present"
+            "institution": "Kyung Hee University",
+            "institution-website": "https://www.khu.ac.kr/eng/",
+            "degree": "B.S. in Computer Science & Engineering",
+            "specialization": "College of Software Convergence (Yongin, Korea)",
+            "awards": "Advisor: Prof. Hui Yong Kim<br>GPA: 4.02 / 4.3 (Summa Cum Laude; Ranked 1st/97)",
+            "years": "Mar 2019 – Aug 2024"
 		}
 	]
 }

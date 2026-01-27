@@ -1,16 +1,28 @@
 {
-	"experience": [{
-			"title": "Meow 1",
-            "company": "Nya",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sem tortor, lobortis vitae ipsum eget, cursus accumsan velit. Pellentesque vestibulum mi ac turpis elementum rhoncus. Aenean consectetur posuere enim vel congue. Fusce id tempor purus. Pellentesque ut metus condimentum, porta felis eu, ullamcorper mauris. Nam ut imperdiet odio. Nulla id augue tristique, fermentum risus nec, pharetra mauris. Nunc fringilla ultricies porta. Curabitur convallis, enim nec sollicitudin venenatis, mauris leo feugiat tortor, a condimentum nunc turpis in nulla. Sed vitae lacus lectus. Morbi pulvinar tortor vel quam feugiat, sit amet porta mauris fermentum",
-            "years": "A2010 - B2020"
-		},
-
-		{
-			"title": "Meow 2",
-            "company": "Purr",
-            "description": "Fusce sodales urna vitae bibendum gravida. Nullam ultricies vestibulum mi ut imperdiet. Integer sed blandit velit. Morbi gravida nulla vel justo cursus, eget maximus ante sodales. Nullam id imperdiet nulla. Sed laoreet non velit a viverra. Ut sit amet est lectus. Proin quis cursus eros. Aliquam at vestibulum nulla.            ",
-            "years": "A2010 - B2020"
-		}
-	]
+  "experience": [
+    {
+      "title": "M.S. Student Researcher",
+      "company": "Autonomous Control for Stochastic Systems Lab, KAIST (Daejeon, Korea)",
+      "years": "Sep 2024 – Present",
+      "description": "• SafeFlowMatcher: flow-matching trajectory generation + Control Barrier Function (CBF-QP) safety filtering for constraint-satisfying planning.<br>• 3D Gaussian Splatting (3DGS) pipeline for situational awareness / visual sensor networks (AFOSR), focusing on deployment constraints (latency, bandwidth)."
+    },
+    {
+      "title": "Research Student",
+      "company": "Visual Media Lab, Kyung Hee University (Yongin, Korea)",
+      "years": "Aug 2022 – Aug 2024",
+      "description": "• Built and evaluated MPEG FCM/FCVCM pipelines combining conventional codecs (VVC, HEVC) with neural compression; emphasized rate–accuracy trade-offs and reproducibility.<br>• 3 first-author domestic publications; 10 MPEG standardization contributions; 1 Korean patent."
+    },
+    {
+      "title": "Research Intern",
+      "company": "Electronics and Telecommunications Research Institute (ETRI) (Daejeon, Korea)",
+      "years": "Jul 2023 – Aug 2023",
+      "description": "Supported MPEG standardization by running validation experiments and analyzing performance data for FCM/FCVCM."
+    },
+    {
+      "title": "Research Project",
+      "company": "AFOSR (United States)",
+      "years": "Jun 2025 – Present",
+      "description": "Fast, accurate, and efficient situational awareness using visual sensor networks (3D Gaussian Splatting–based system)."
+    }
+  ]
 }

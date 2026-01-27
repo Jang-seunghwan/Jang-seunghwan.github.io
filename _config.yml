@@ -1,28 +1,26 @@
 # --- Required options --- #
 
-title-head: Catty McCatface's website
-subheading: I'm a cat. I'm a kitty cat.
-
+title-head: "Seunghwan Jang"
+subheading: "M.S. Student, School of Electrical Engineering, KAIST"
 # Name of author
-author: Catty McCatface
+author: "Seunghwan Jang"
 
-email: your-email@example.com
+email: "jsh991124@kaist.ac.kr"
 
-baseurl: "Bootstrap-Resume-Jekyll" # the subpath of your site, e.g. blog
-url: "http://zemmyang.com" # the base hostname & protocol for your site, e.g. http://example.com
+# 배포 형태에 맞게 수정:
+# - GitHub Pages (User/Org pages): baseurl: "" / url: "https://<username>.github.io"
+# - GitHub Pages (Project pages):  baseurl: "/<repo-name>" / url: "https://<username>.github.io"
+baseurl: "" # TODO: set to "/<repo-name>" if using GitHub project pages
+url: ""     # TODO: set to "https://<username>.github.io" or your custom domain
 
 # --- General options --- #
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-
-# Excerpt word length - Truncate the excerpt of each post on the blog posts page to the specified number of words
-excerpt_length: 50
+  M.S. student in the School of Electrical Engineering at KAIST (Autonomous Control for Stochastic Systems Lab; advisor: Prof. SooJean Han).
+  Research interests include safe generative motion planning (flow matching / diffusion + control barrier functions) and efficient 3D Gaussian Splatting (3DGS)-based perception/situational awareness systems.
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "jekyll, theme"
+keywords: "Seunghwan Jang, KAIST, robotics, motion planning, flow matching, diffusion, control barrier functions, CBF, SafeFlowMatcher, 3D Gaussian Splatting, 3DGS, perception, stochastic systems"
 
 # --- Logo --- #
 
@@ -73,7 +71,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Asia/Seoul"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
