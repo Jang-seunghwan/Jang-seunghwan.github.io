@@ -1,6 +1,6 @@
 <section class="resume-section" id="about">
     <div class="resume-section-content">
-        <img class="about-avatar mb-3 {% if site.round-avatar %}rounded-circle{% endif %}" src="{{ site.url }}/{{ site.baseurl }}/{{ site.avatar }}" alt="" />
+        <img class="about-avatar mb-3 {% if site.round-avatar %}rounded-circle{% endif %}" src="{{ site.baseurl }}/{{ site.avatar }}" alt="" />
         <h1 class="mb-0">
 
             <!-- Edit for the header name -->
@@ -17,7 +17,7 @@
             {% for item in site.data.social-icons.social-icons %}
                 <a class="social-icon" href="{{ item.link }}"><i class="{{ item.fa-icon }}"></i></a>
             {% endfor %}
-            <a class="social-icon" href="{{ site.url }}{{ site.baseurl }}/assets/seunghwan_cv.pdf" aria-label="CV"><i class="fas fa-file-alt"></i></a>
+            <a class="social-icon" href="{{ site.baseurl }}/assets/seunghwan_cv.pdf" aria-label="CV"><i class="fas fa-file-alt"></i></a>
         </div>
     </div>
 </section>
