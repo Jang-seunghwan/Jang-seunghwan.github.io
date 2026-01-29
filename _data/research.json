@@ -1,17 +1,65 @@
 {
-	"social-icons": [{
-			"link": "https://www.linkedin.com/in/seunghwan-jang-433573305/",
-			"fa-icon": "fab fa-linkedin-in"
-		},
-
-		{
-			"link": "https://github.com/Jang-seunghwan",
-			"fa-icon": "fab fa-github"
-		},
-
-		{
-			"link": "https://scholar.google.com/citations?user=xgbbTz8AAAAJ",
-			"fa-icon": "ai ai-google-scholar"
-		}
-	]
+  "overview": {
+    "name": "Research",
+    "last_updated": "2026-01",
+    "focus_areas": [
+      "Safe generative motion planning (flow matching / diffusion-style models + Control Barrier Functions)",
+      "Deployment-aware perception and situational awareness with 3D Gaussian Splatting (3DGS) and visual sensor networks"
+    ],
+    "keywords": [
+      "safe planning",
+      "flow matching",
+      "diffusion models",
+      "control barrier functions",
+      "CBF-QP",
+      "3D Gaussian Splatting",
+      "3DGS",
+      "visual sensor networks"
+    ]
+  },
+  "publications": [
+    {
+      "id": 1,
+      "title": "Stratified Hazard Sampling: Minimal-Variance Event Scheduling for CTMC/DTMC Discrete Diffusion and Flow Models",
+      "authors": [
+        { "name": "Seunghwan Jang", "equal_contribution": false, "corresponding_author": false },
+        { "name": "SooJean Han", "equal_contribution": false, "corresponding_author": false }
+      ],
+      "type": "preprint",
+      "venue": "arXiv",
+      "date": "2026-01",
+      "status": "arXiv preprint",
+      "links": { "arxiv": "https://arxiv.org/abs/2601.02799", "openreview": null },
+      "notes": null
+    },
+    {
+      "id": 2,
+      "title": "SafeFlowMatcher: Safe and Fast Planning using Flow Matching with Control Barrier Functions",
+      "authors": [
+        { "name": "Seunghwan Jang*†", "equal_contribution": true, "corresponding_author": true },
+        { "name": "Jeongyong Yang*", "equal_contribution": true, "corresponding_author": false },
+        { "name": "SooJean Han", "equal_contribution": false, "corresponding_author": false }
+      ],
+      "type": "preprint",
+      "venue": "arXiv",
+      "date": "2025-10",
+      "status": "Accepted at ICLR 2026; arXiv preprint",
+      "links": { "arxiv": "https://arxiv.org/abs/2509.24243", "openreview": "https://openreview.net/forum?id=refcXHU1Nh" },
+      "notes": "Equal contribution (*); corresponding author (†) on CV."
+    },
+    {
+      "id": 3,
+      "title": "Comparison of Compression Codec Algorithms to Image Datasets in 3D Gaussian Splatting Models",
+      "authors": [
+        { "name": "Seunghwan Jang", "equal_contribution": false, "corresponding_author": false },
+        { "name": "SooJean Han", "equal_contribution": false, "corresponding_author": false }
+      ],
+      "type": "workshop_poster",
+      "venue": "Workshop on Image Processing and Image Understanding (IPIU)",
+      "date": "2025-02",
+      "status": "Poster (in Korean)",
+      "links": { "paper": null },
+      "notes": null
+    }
+  ]
 }

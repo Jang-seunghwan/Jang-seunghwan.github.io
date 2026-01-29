@@ -1,0 +1,127 @@
+<section class="resume-section" id="research">
+    <div class="resume-section-content">
+        <h2 class="mb-5">{{ site.data.research.overview.name | default: "Research" }}</h2>
+
+        {% if site.data.research.overview.focus_areas %}
+        <div class="subheading mb-2">Focus Areas</div>
+        <ul class="mb-3">
+            {% for item in site.data.research.overview.focus_areas %}
+            <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if site.data.research.overview.keywords %}
+        <p class="mb-3">
+            <strong>Keywords:</strong>
+            {% for item in site.data.research.overview.keywords %}
+                {{ item }}{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+        </p>
+        {% endif %}
+
+        {% if site.data.research.publications %}
+        <div class="subheading mb-2">Publications</div>
+        {% for pub in site.data.research.publications %}
+        <div class="mb-3 d-flex flex-column flex-md-row">
+            {% if pub.image %}
+            <div class="mr-md-3 mb-2 mb-md-0">
+                <img class="research-thumb" src="{{ site.url }}{{ site.baseurl }}/{{ pub.image }}" alt="{{ pub.title }} thumbnail" />
+            </div>
+            {% endif %}
+            <div>
+                <div class="mb-1"><strong>{{ pub.title }}</strong></div>
+                <div>
+                    {% if pub.authors %}
+                        {% for author in pub.authors %}
+                            {{ author.name }}{% unless forloop.last %}, {% endunless %}
+                        {% endfor %}
+                    {% endif %}
+                </div>
+                <div>
+                    {% if pub.venue %}{{ pub.venue }}{% endif %}
+                    {% if pub.date %}{% if pub.venue %} | {% endif %}{{ pub.date }}{% endif %}
+                    {% if pub.status %}{% if pub.venue or pub.date %} | {% endif %}{{ pub.status }}{% endif %}
+                </div>
+                {% if pub.notes %}
+                <div>{{ pub.notes }}</div>
+                {% endif %}
+                {% if pub.links %}
+                <div class="research-links mt-1">
+                    {% if pub.links.paper %}<a href="{{ pub.links.paper }}">Paper</a>{% endif %}
+                    {% if pub.links.pdf %}<a href="{{ pub.links.pdf }}">PDF</a>{% endif %}
+                    {% if pub.links.arxiv %}<a href="{{ pub.links.arxiv }}">arXiv</a>{% endif %}
+                    {% if pub.links.openreview %}<a href="{{ pub.links.openreview }}">OpenReview</a>{% endif %}
+                    {% if pub.links.project %}<a href="{{ pub.links.project }}">Project</a>{% endif %}
+                    {% if pub.links.code %}<a href="{{ pub.links.code }}">Code</a>{% endif %}
+                    {% if pub.links.video %}<a href="{{ pub.links.video }}">Video</a>{% endif %}
+                    {% if pub.links.poster %}<a href="{{ pub.links.poster }}">Poster</a>{% endif %}
+                    {% if pub.links.slides %}<a href="{{ pub.links.slides }}">Slides</a>{% endif %}
+                    {% if pub.links.dataset %}<a href="{{ pub.links.dataset }}">Dataset</a>{% endif %}
+                    {% if pub.links.doi %}<a href="{{ pub.links.doi }}">DOI</a>{% endif %}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+        {% endif %}
+
+        {% if site.data.research.research_positions %}
+        <div class="subheading mb-2">Research Positions</div>
+        {% for item in site.data.research.research_positions %}
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">{{ item.title }}</h3>
+                <div class="subheading mb-1">{{ item.lab }}</div>
+                {% if item.advisor %}
+                <div>Advisor: {{ item.advisor }}</div>
+                {% endif %}
+                {% if item.location %}
+                <div>{{ item.location }}</div>
+                {% endif %}
+                {% if item.highlights %}
+                <ul class="mb-0">
+                    {% for h in item.highlights %}
+                    <li>{{ h }}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
+            <div class="flex-shrink-0">
+                <span class="text-primary">{{ item.start }} - {{ item.end }}</span>
+            </div>
+        </div>
+        {% endfor %}
+        {% endif %}
+
+        {% if site.data.research.projects %}
+        <div class="subheading mb-2">Projects</div>
+        {% for proj in site.data.research.projects %}
+        <div class="mb-3">
+            <div class="mb-1"><strong>{{ proj.title }}</strong></div>
+            {% if proj.sponsor %}<div>{{ proj.sponsor }}</div>{% endif %}
+            <div class="text-primary mb-2">{{ proj.start }} - {{ proj.end }}</div>
+            {% if proj.highlights %}
+            <ul class="mb-0">
+                {% for h in proj.highlights %}
+                <li>{{ h }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+        {% endfor %}
+        {% endif %}
+
+        {% if site.data.research.service %}
+        <div class="subheading mb-2">Service</div>
+        <ul class="mb-0">
+            {% for svc in site.data.research.service %}
+            <li>
+                {{ svc.role }}{% if svc.venue %} - {{ svc.venue }}{% endif %}{% if svc.date %} ({{ svc.date }}){% endif %}
+                {% if svc.notes %} - {{ svc.notes }}{% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</section>

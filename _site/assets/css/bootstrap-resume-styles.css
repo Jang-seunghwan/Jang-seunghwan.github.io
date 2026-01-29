@@ -10096,6 +10096,14 @@ p.lead {
   font-size: 1.5rem;
   margin-right: 1.5rem;
 }
+.social-icons .social-icon i {
+  display: inline-block;
+  line-height: 1;
+}
+.social-icons .social-icon .ai {
+  position: relative;
+  top: -1px;
+}
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
@@ -10105,6 +10113,28 @@ p.lead {
 
 .dev-icons {
   font-size: 3rem;
+}
+
+.about-avatar {
+  display: block;
+  width: 30rem;
+  max-width: 100%;
+  height: auto;
+  border: 0.5rem solid rgba(73, 80, 87, 0.2);
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.research-thumb {
+  width: 120px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+  object-fit: cover;
+}
+
+.research-links a {
+  margin-right: 0.75rem;
 }
 
 section.resume-section {

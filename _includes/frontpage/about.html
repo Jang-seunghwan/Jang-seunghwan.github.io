@@ -1,5 +1,6 @@
 <section class="resume-section" id="about">
     <div class="resume-section-content">
+        <img class="about-avatar mb-3 {% if site.round-avatar %}rounded-circle{% endif %}" src="{{ site.url }}/{{ site.baseurl }}/{{ site.avatar }}" alt="" />
         <h1 class="mb-0">
 
             <!-- Edit for the header name -->
@@ -11,7 +12,7 @@
             {{ site.subheading }}
             <a href="mailto:{{ site.email }}">{{ site.email }}</a>
         </div>
-        <p class="lead mb-5">{{ site.description }}</p>
+        <p class="lead mb-5">{{ site.description | newline_to_br }}</p>
         <div class="social-icons">
             {% for item in site.data.social-icons.social-icons %}
                 <a class="social-icon" href="{{ item.link }}"><i class="{{ item.fa-icon }}"></i></a>

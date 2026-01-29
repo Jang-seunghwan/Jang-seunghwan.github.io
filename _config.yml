@@ -15,9 +15,11 @@ url: ""     # TODO: set to "https://<username>.github.io" or your custom domain
 
 # --- General options --- #
 
-description: >- # this means to ignore newlines until "baseurl:"
+description: |- # this means to preserve newlines
   M.S. student in the School of Electrical Engineering at KAIST (Autonomous Control for Stochastic Systems Lab; advisor: Prof. SooJean Han).
   Research interests include safe generative motion planning (flow matching / diffusion + control barrier functions) and efficient 3D Gaussian Splatting (3DGS)-based perception/situational awareness systems.
+
+  I am always open to discussing research and enjoy exchanging new ideas. Please feel free to reach out to me anytime!
 
 # The keywords to associate with your website, for SEO purposes
 keywords: "Seunghwan Jang, KAIST, robotics, motion planning, flow matching, diffusion, control barrier functions, CBF, SafeFlowMatcher, 3D Gaussian Splatting, 3DGS, perception, stochastic systems"
