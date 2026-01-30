@@ -29,7 +29,7 @@
       "venue": "arXiv",
       "date": "2026-01",
       "status": "arXiv preprint",
-      "links": { "arxiv": "https://arxiv.org/abs/2601.02799", "openreview": null },
+      "links": { "arxiv": "https://arxiv.org/abs/2601.02799", "openreview": null, "github": "https://github.com/Jang-seunghwan/Stratified-Hazard-Sampling" },
       "notes": null
     },
     {
@@ -44,7 +44,7 @@
       "venue": "arXiv",
       "date": "2025-10",
       "status": "Accepted at ICLR 2026; arXiv preprint",
-      "links": { "arxiv": "https://arxiv.org/abs/2509.24243", "openreview": "https://openreview.net/forum?id=refcXHU1Nh" },
+      "links": { "arxiv": "https://arxiv.org/abs/2509.24243", "openreview": "https://openreview.net/forum?id=refcXHU1Nh", "github": "https://github.com/Jang-seunghwan/SafeFlowMatcher" },
       "notes": "Equal contribution (*); corresponding author (†) on CV."
     },
     {
