@@ -4,7 +4,7 @@
       "title": "M.S. Student Researcher",
       "company": "Autonomous Control for Stochastic Systems Lab, KAIST (Daejeon, Korea)",
       "years": "Sep 2024 – Present",
-      "description": "• SafeFlowMatcher: flow-matching trajectory generation + Control Barrier Function (CBF-QP) safety filtering for constraint-satisfying planning.<br>• 3D Gaussian Splatting (3DGS) pipeline for situational awareness / visual sensor networks (AFOSR), focusing on deployment constraints (latency, bandwidth)."
+      "description": "• Safety-critical generative AI: designing and certifying generative planners (flow matching, streaming flow, discrete diffusion) with formal safety guarantees (CBF/ECBF). Published at ICLR 2026 and workshops."
     },
     {
       "title": "Research Student",

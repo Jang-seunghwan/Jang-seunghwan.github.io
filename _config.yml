@@ -5,7 +5,7 @@ subheading: "M.S. Student, School of Electrical Engineering, KAIST"
 # Name of author
 author: "Seunghwan Jang"
 
-email: "jsh991124@kaist.ac.kr"
+email: "jsh991124[at]kaist[dot]ac[dot]kr"
 
 # 배포 형태에 맞게 수정:
 # - GitHub Pages (User/Org pages): baseurl: "" / url: "https://<username>.github.io"
@@ -17,12 +17,12 @@ url: ""     # TODO: set to "https://<username>.github.io" or your custom domain
 
 description: |- # this means to preserve newlines
   M.S. student in the School of Electrical Engineering at KAIST (Autonomous Control for Stochastic Systems Lab; advisor: Prof. SooJean Han).
-  Research interests include safe generative motion planning (flow matching / diffusion + control barrier functions) and efficient 3D Gaussian Splatting (3DGS)-based perception/situational awareness systems.
+  <strong>Research interests</strong> lie in safety-critical generative AI. Beyond integrating formal safety guarantees (e.g., control barrier functions) into generative models, I focus on designing generative architectures (diffusion, flow matching, discrete diffusion) that are inherently amenable to safety certification. Primary application domains include robotics and language models.
 
   I am always open to discussing research and enjoy exchanging new ideas. Please feel free to reach out to me anytime!
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "Seunghwan Jang, KAIST, robotics, motion planning, flow matching, diffusion, control barrier functions, CBF, SafeFlowMatcher, 3D Gaussian Splatting, 3DGS, perception, stochastic systems"
+keywords: "Seunghwan Jang, KAIST, safety-critical AI, safe generation, diffusion models, flow matching, discrete diffusion, safety-critical control, control barrier functions, CBF, robotics, language models"
 
 # --- Logo --- #
 
