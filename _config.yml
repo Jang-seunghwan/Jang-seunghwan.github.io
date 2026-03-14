@@ -16,7 +16,6 @@ url: ""     # TODO: set to "https://<username>.github.io" or your custom domain
 # --- General options --- #
 
 description: |- # this means to preserve newlines
-  M.S. student in the School of Electrical Engineering at KAIST (Autonomous Control for Stochastic Systems Lab; advisor: Prof. SooJean Han).
   <strong>Research interests</strong> lie in safety-critical generative AI. Beyond integrating formal safety guarantees (e.g., control barrier functions) into generative models, I focus on designing generative architectures (diffusion, flow matching, discrete diffusion) that are inherently amenable to safety certification. Primary application domains include robotics and language models.
 
   I am always open to discussing research and enjoy exchanging new ideas. Please feel free to reach out to me anytime!
