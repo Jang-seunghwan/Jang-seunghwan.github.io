@@ -1,9 +1,9 @@
 {
   "overview": {
     "name": "Research",
-    "last_updated": "2026-03",
+    "last_updated": "2026-10",
     "focus_areas": [
-      "Integrating formal safety guarantees (e.g., CBF) into generative models (diffusion, flow matching, discrete diffusion)",
+      "Integrating formal safety guarantees (e.g., CBFs) into generative models (diffusion, flow matching, discrete diffusion)",
       "Designing generative architectures inherently amenable to safety certification",
       "Applications to robotics and language models"
     ],
@@ -22,6 +22,37 @@
   "publications": [
     {
       "id": 1,
+      "title": "Systematic Hazard Sampling: Minimal-Variance Inference for Discrete Diffusion and Flow Models",
+      "authors": [
+        { "name": "Seunghwan Jang", "equal_contribution": false, "corresponding_author": false },
+        { "name": "Wonje Jeung", "equal_contribution": false, "corresponding_author": false },
+        { "name": "SooJean Han", "equal_contribution": false, "corresponding_author": false }
+      ],
+      "type": "conference",
+      "venue": "NeurIPS 2026",
+      "date": "2026",
+      "status": "NeurIPS 2026",
+      "links": {},
+      "notes": null
+    },
+    {
+      "id": 2,
+      "title": "Safe Streaming Flow Planning by Aligning Sampling Dynamics with Execution Dynamics",
+      "authors": [
+        { "name": "Seunghwan Jang†", "equal_contribution": false, "corresponding_author": true },
+        { "name": "Jeongyong Yang", "equal_contribution": false, "corresponding_author": false },
+        { "name": "Siddharth Ancha", "equal_contribution": false, "corresponding_author": false },
+        { "name": "SooJean Han†", "equal_contribution": false, "corresponding_author": true }
+      ],
+      "type": "conference",
+      "venue": "CoRL 2026",
+      "date": "2026",
+      "status": "CoRL 2026",
+      "links": {},
+      "notes": "(†Corresponding author)"
+    },
+    {
+      "id": 3,
       "title": "SafeFlowMatcher: Safe and Fast Planning using Flow Matching with Control Barrier Functions",
       "authors": [
         { "name": "Jeongyong Yang*", "equal_contribution": true, "corresponding_author": false },
@@ -36,7 +67,7 @@
       "notes": "(* Equal contribution; †Corresponding author)"
     },
     {
-      "id": 2,
+      "id": 4,
       "title": "Safe Streaming Flow Planning by Aligning Generation with Execution",
       "authors": [
         { "name": "Seunghwan Jang*", "equal_contribution": true, "corresponding_author": false },
@@ -52,7 +83,7 @@
       "notes": null
     },
     {
-      "id": 3,
+      "id": 5,
       "title": "Stratified Hazard Sampling: Minimal-Variance Event Scheduling for CTMC/DTMC Discrete Diffusion and Flow Models",
       "authors": [
         { "name": "Seunghwan Jang", "equal_contribution": false, "corresponding_author": false },
@@ -66,7 +97,7 @@
       "notes": null
     },
     {
-      "id": 4,
+      "id": 6,
       "title": "Comparison of Compression Codec Algorithms to Image Datasets in 3D Gaussian Splatting Models",
       "authors": [
         { "name": "Seunghwan Jang", "equal_contribution": false, "corresponding_author": false },

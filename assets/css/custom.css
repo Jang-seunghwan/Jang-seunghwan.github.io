@@ -1,0 +1,37 @@
+/* Site-specific overrides, loaded after bootstrap-resume-styles.css */
+
+/* Institution logo box in Education / Research Experience entries.
+   Fixed-size box so text starts on the same line whether or not an entry has a logo;
+   the image is only scaled (object-fit: contain), never cropped or stretched. */
+.resume-logo {
+  flex: 0 0 auto;
+  width: 120px;
+  height: 48px;
+  margin-right: 1.25rem;
+}
+
+.resume-logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.resume-logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: left center;
+}
+
+@media (max-width: 767.98px) {
+  .resume-logo {
+    height: 36px;
+    margin-right: 0;
+    margin-bottom: 0.75rem;
+  }
+
+  .resume-logo--empty {
+    display: none;
+  }
+}

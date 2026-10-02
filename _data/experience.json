@@ -1,28 +1,20 @@
 {
   "experience": [
     {
-      "title": "M.S. Student Researcher",
-      "company": "Autonomous Control for Stochastic Systems Lab, KAIST (Daejeon, Korea)",
-      "years": "Sep 2024 – Present",
-      "description": "• Safety-critical generative AI: designing and certifying generative planners (flow matching, streaming flow, discrete diffusion) with formal safety guarantees (CBF/ECBF). Published at ICLR 2026 and workshops."
-    },
-    {
       "title": "Research Student",
       "company": "Visual Media Lab, Kyung Hee University (Yongin, Korea)",
+      "institution": "Kyung Hee University",
+      "logo": "assets/img/logos/khu.png",
       "years": "Aug 2022 – Aug 2024",
       "description": "• Built and evaluated MPEG FCM/FCVCM pipelines combining conventional codecs (VVC, HEVC) with neural compression; emphasized rate–accuracy trade-offs and reproducibility.<br>• 3 first-author domestic publications; 10 MPEG standardization contributions; 1 Korean patent."
     },
     {
       "title": "Research Intern",
       "company": "Electronics and Telecommunications Research Institute (ETRI) (Daejeon, Korea)",
+      "institution": "Electronics and Telecommunications Research Institute (ETRI)",
+      "logo": "assets/img/logos/etri.png",
       "years": "Jul 2023 – Aug 2023",
       "description": "Supported MPEG standardization by running validation experiments and analyzing performance data for FCM/FCVCM."
-    },
-    {
-      "title": "Research Project",
-      "company": "AFOSR (United States)",
-      "years": "Jun 2025 – Present",
-      "description": "Fast, accurate, and efficient situational awareness using visual sensor networks (3D Gaussian Splatting–based system)."
     }
   ]
 }

@@ -1,11 +1,13 @@
 # --- Required options --- #
 
 title-head: "Seunghwan Jang"
-subheading: "M.S. Student, School of Electrical Engineering, KAIST"
+subheading: "Ph.D. Student, School of Electrical and Electronic Engineering, Nanyang Technological University (NTU)"
+# Lab / supervisor line shown under the subheading
+affiliation-line: "SAIL; supervisor: Prof. Wei Xiao"
 # Name of author
 author: "Seunghwan Jang"
 
-email: "jsh991124[at]kaist[dot]ac[dot]kr"
+email: "seunghwa001[at]e[dot]ntu[dot]edu[dot]sg"
 
 # 배포 형태에 맞게 수정:
 # - GitHub Pages (User/Org pages): baseurl: "" / url: "https://<username>.github.io"
@@ -21,7 +23,7 @@ description: |- # this means to preserve newlines
   I am always open to discussing research and enjoy exchanging new ideas. Please feel free to reach out to me anytime!
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "Seunghwan Jang, KAIST, safety-critical AI, safe generation, diffusion models, flow matching, discrete diffusion, safety-critical control, control barrier functions, CBF, robotics, language models"
+keywords: "Seunghwan Jang, NTU, Nanyang Technological University, KAIST, safety-critical AI, safe generation, diffusion models, flow matching, discrete diffusion, safety-critical control, control barrier functions, CBF, robotics, language models"
 
 # --- Logo --- #
 

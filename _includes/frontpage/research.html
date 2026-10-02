@@ -48,7 +48,10 @@
                 {% if pub.notes %}
                 <div>{{ pub.notes }}</div>
                 {% endif %}
-                {% if pub.links %}
+                {% comment %}`{}` is truthy in Liquid, so only render the row if at least one link has a URL{% endcomment %}
+                {% assign has_links = false %}
+                {% for link in pub.links %}{% if link[1] %}{% assign has_links = true %}{% endif %}{% endfor %}
+                {% if has_links %}
                 <div class="research-links mt-1">
                     {% if pub.links.paper %}<a href="{{ pub.links.paper }}">Paper</a>{% endif %}
                     {% if pub.links.pdf %}<a href="{{ pub.links.pdf }}">PDF</a>{% endif %}
@@ -94,7 +97,10 @@
                 {% if pub.notes %}
                 <div>{{ pub.notes }}</div>
                 {% endif %}
-                {% if pub.links %}
+                {% comment %}`{}` is truthy in Liquid, so only render the row if at least one link has a URL{% endcomment %}
+                {% assign has_links = false %}
+                {% for link in pub.links %}{% if link[1] %}{% assign has_links = true %}{% endif %}{% endfor %}
+                {% if has_links %}
                 <div class="research-links mt-1">
                     {% if pub.links.paper %}<a href="{{ pub.links.paper }}">Paper</a>{% endif %}
                     {% if pub.links.pdf %}<a href="{{ pub.links.pdf }}">PDF</a>{% endif %}

@@ -11,9 +11,11 @@
         <div class="subheading mb-0">
             {{ site.subheading }}
         </div>
+        {% if site.affiliation-line %}
         <div class="mb-1" style="font-size: 0.9rem; color: #6c757d;">
-            Autonomous Control for Stochastic Systems Lab; advisor: Prof. SooJean Han
+            {{ site.affiliation-line }}
         </div>
+        {% endif %}
         <div class="mb-5">
             <span>{{ site.email }}</span>
         </div>

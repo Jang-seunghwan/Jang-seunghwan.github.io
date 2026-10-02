@@ -1,20 +1,28 @@
 {
-	"education": [{
-            "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
-            "institution-website": "https://www.kaist.ac.kr/en/",
-            "degree": "M.S. Student, Department of Electrical & Electronic Engineering",
-            "specialization": "Autonomous Control for Stochastic Systems Lab (Daejeon, Korea)",
-            "awards": "Advisor: Prof. SooJean Han",
-            "years": "Sep 2024 – Present"
-		},
-
-		{
-            "institution": "Kyung Hee University",
-            "institution-website": "https://www.khu.ac.kr/eng/",
-            "degree": "B.S. in Computer Science & Engineering",
-            "specialization": "College of Software Convergence (Yongin, Korea)",
-            "awards": "Advisor: Prof. Hui Yong Kim<br>GPA: 4.02 / 4.3 (Ranked 1st/97)",
-            "years": "Mar 2019 – Aug 2024"
-		}
-	]
+  "education": [
+    {
+      "institution": "Nanyang Technological University (NTU), Singapore",
+      "institution-website": "https://www.ntu.edu.sg/eee",
+      "logo": "assets/img/logos/ntu.png",
+      "degree": "Ph.D. Student, School of Electrical and Electronic Engineering",
+      "details": "SAIL (Singapore)<br>Supervisor: Prof. Wei Xiao",
+      "years": "Aug 2026 – Present"
+    },
+    {
+      "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+      "institution-website": "https://www.kaist.ac.kr/en/",
+      "logo": "assets/img/logos/kaist.png",
+      "degree": "M.S. in Electrical Engineering",
+      "details": "Autonomous Control for Stochastic Systems (ACSS) Lab, School of Electrical Engineering (Daejeon, Korea)<br>Advisor: Prof. SooJean Han<br>Thesis: <em>Safe Generative Planning: From Continuous to Discrete Diffusion</em>",
+      "years": "Sep 2024 – Aug 2026"
+    },
+    {
+      "institution": "Kyung Hee University",
+      "institution-website": "https://www.khu.ac.kr/eng/",
+      "logo": "assets/img/logos/khu.png",
+      "degree": "B.S. in Computer Science & Engineering",
+      "details": "College of Software Convergence (Yongin, Korea)<br>Advisor: Prof. Hui Yong Kim<br>GPA: 4.02 / 4.3 (Ranked 1st/97)",
+      "years": "Mar 2019 – Aug 2024"
+    }
+  ]
 }
