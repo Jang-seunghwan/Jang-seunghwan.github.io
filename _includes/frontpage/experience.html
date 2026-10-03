@@ -6,7 +6,7 @@
         <div class="d-flex flex-column flex-md-row justify-content-between {% if forloop.last == false %} mb-5 {% endif %}">
             <div class="resume-logo{% unless item.logo %} resume-logo--empty{% endunless %}">
                 {% if item.logo %}
-                {% if item.institution-website %}<a href="{{ item.institution-website }}">{% endif %}<img src="{{ site.baseurl }}/{{ item.logo }}" alt="{{ item.institution | default: item.company }} logo" loading="lazy" />{% if item.institution-website %}</a>{% endif %}
+                <img src="{{ site.baseurl }}/{{ item.logo }}" alt="{{ item.institution | default: item.company }} logo" loading="lazy" />
                 {% endif %}
             </div>
             <div class="flex-grow-1">
