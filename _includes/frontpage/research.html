@@ -22,6 +22,9 @@
 
         {% if site.data.research.publications %}
         <div class="subheading mb-2">Publications</div>
+        {% if site.data.research.overview.publication_notation %}
+        <div class="mb-2" style="font-size: 0.9rem; color: #6c757d;">({{ site.data.research.overview.publication_notation }})</div>
+        {% endif %}
 
         <div class="subheading mb-2" style="font-size: 1rem;">Conference</div>
         {% for pub in site.data.research.publications %}

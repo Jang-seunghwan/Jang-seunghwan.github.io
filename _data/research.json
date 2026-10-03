@@ -17,14 +17,15 @@
       "control barrier functions",
       "robotics",
       "language models"
-    ]
+    ],
+    "publication_notation": "* Equal contribution; † Corresponding author"
   },
   "publications": [
     {
       "id": 1,
       "title": "Systematic Hazard Sampling: Minimal-Variance Inference for Discrete Diffusion and Flow Models",
       "authors": [
-        { "name": "Seunghwan Jang", "equal_contribution": false, "corresponding_author": false },
+        { "name": "Seunghwan Jang†", "equal_contribution": false, "corresponding_author": true },
         { "name": "Wonje Jeung", "equal_contribution": false, "corresponding_author": false },
         { "name": "SooJean Han", "equal_contribution": false, "corresponding_author": false }
       ],
@@ -49,7 +50,7 @@
       "date": "2026",
       "status": "CoRL 2026",
       "links": {},
-      "notes": "(†Corresponding author)"
+      "notes": null
     },
     {
       "id": 3,
@@ -57,14 +58,14 @@
       "authors": [
         { "name": "Jeongyong Yang*", "equal_contribution": true, "corresponding_author": false },
         { "name": "Seunghwan Jang*†", "equal_contribution": true, "corresponding_author": true },
-        { "name": "SooJean Han", "equal_contribution": false, "corresponding_author": false }
+        { "name": "SooJean Han†", "equal_contribution": false, "corresponding_author": true }
       ],
       "type": "conference",
       "venue": "ICLR 2026",
       "date": "2026",
       "status": "ICLR 2026",
       "links": { "arxiv": "https://arxiv.org/abs/2509.24243", "openreview": "https://openreview.net/forum?id=refcXHU1Nh", "project": "https://takahashi-seiryu.github.io/SafeFlowMatcher/", "github": "https://github.com/Jang-seunghwan/SafeFlowMatcher" },
-      "notes": "(* Equal contribution; †Corresponding author)"
+      "notes": null
     },
     {
       "id": 4,
