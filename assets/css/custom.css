@@ -29,3 +29,8 @@
     display: none;
   }
 }
+
+/* One-line research interest in About: black, not the theme's gray body text */
+.research-interest {
+  color: #000;
+}
