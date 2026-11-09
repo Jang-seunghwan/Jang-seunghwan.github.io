@@ -2,22 +2,6 @@
   "overview": {
     "name": "Research",
     "last_updated": "2026-10",
-    "focus_areas": [
-      "Integrating formal safety guarantees (e.g., CBFs) into generative models (diffusion, flow matching, discrete diffusion)",
-      "Designing generative architectures inherently amenable to safety certification",
-      "Applications to robotics and language models"
-    ],
-    "keywords": [
-      "safety-critical AI",
-      "safe generation",
-      "diffusion models",
-      "flow matching",
-      "discrete diffusion",
-      "safety-critical control",
-      "control barrier functions",
-      "robotics",
-      "language models"
-    ],
     "publication_notation": "* Equal contribution; † Corresponding author"
   },
   "publications": [
