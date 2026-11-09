@@ -50,50 +50,6 @@
       "status": "ICLR 2026",
       "links": { "arxiv": "https://arxiv.org/abs/2509.24243", "openreview": "https://openreview.net/forum?id=refcXHU1Nh", "project": "https://takahashi-seiryu.github.io/SafeFlowMatcher/", "github": "https://github.com/Jang-seunghwan/SafeFlowMatcher" },
       "notes": null
-    },
-    {
-      "id": 4,
-      "title": "Safe Streaming Flow Planning by Aligning Generation with Execution",
-      "authors": [
-        { "name": "Seunghwan Jang*", "equal_contribution": true, "corresponding_author": false },
-        { "name": "Jeongyong Yang*", "equal_contribution": true, "corresponding_author": false },
-        { "name": "Siddharth Ancha", "equal_contribution": false, "corresponding_author": false },
-        { "name": "SooJean Han", "equal_contribution": false, "corresponding_author": false }
-      ],
-      "type": "workshop",
-      "venue": "ICLR 2026 Workshop on World Models",
-      "date": "2026",
-      "status": "Workshop",
-      "links": {},
-      "notes": null
-    },
-    {
-      "id": 5,
-      "title": "Stratified Hazard Sampling: Minimal-Variance Event Scheduling for CTMC/DTMC Discrete Diffusion and Flow Models",
-      "authors": [
-        { "name": "Seunghwan Jang", "equal_contribution": false, "corresponding_author": false },
-        { "name": "SooJean Han", "equal_contribution": false, "corresponding_author": false }
-      ],
-      "type": "workshop",
-      "venue": "ICLR 2026 ReALM-GEN Workshop",
-      "date": "2026",
-      "status": "Workshop",
-      "links": { "arxiv": "https://arxiv.org/abs/2601.02799", "github": "https://github.com/Jang-seunghwan/Stratified-Hazard-Sampling" },
-      "notes": null
-    },
-    {
-      "id": 6,
-      "title": "Comparison of Compression Codec Algorithms to Image Datasets in 3D Gaussian Splatting Models",
-      "authors": [
-        { "name": "Seunghwan Jang", "equal_contribution": false, "corresponding_author": false },
-        { "name": "SooJean Han", "equal_contribution": false, "corresponding_author": false }
-      ],
-      "type": "workshop_poster",
-      "venue": "Workshop on Image Processing and Image Understanding (IPIU)",
-      "date": "2025-02",
-      "status": "Poster (in Korean)",
-      "links": { "paper": null },
-      "notes": null
     }
   ]
 }
